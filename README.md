@@ -1,5 +1,5 @@
-#Specifications: 
-#This project creates a sender and receivers that implements video file transfer over UDP protocol using Linux/GNU C sockets. Sender is #able to open a video file (or any file), read data chunks from file and write UDP segments, send these segments on UDP. Receiver must be #able to receive, reorder and write data to a file at the receiving end.
+Specifications: \n
+This project creates a sender and receivers that implements video file transfer over UDP protocol using Linux/GNU C sockets. Sender is able to open a video file (or any file), read data chunks from file and write UDP segments, send these segments on UDP. Receiver must be able to receive, reorder and write data to a file at the receiving end.
 
 Sender:
 The sender works as follows: "Sender-filename listenport" (Command line Arguments)
