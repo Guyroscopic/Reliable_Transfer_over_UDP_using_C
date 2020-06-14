@@ -19,9 +19,13 @@ The receiver binds to the UDP port specified on the command line and receive a f
 Implementing reliability in UDP:
 
 We will implement the following to make UDP reliable:
+
 a) Sequence numbers
+
 b) Retransmission (selective repeat)
+
 c) Window size of 5-10 UDP segments (stop n wait)
+
 d) Re ordering on receiver side 
  
  
