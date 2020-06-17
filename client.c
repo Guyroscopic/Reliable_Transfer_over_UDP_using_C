@@ -67,7 +67,7 @@ int main(int argc, char *argv[]){
 	sendto(sock, "get" , strlen("get"), 0, (struct sockaddr *)&server, length);
 
 	//Creating a File for Flushing the data from the Server
-	file = fopen("/home/guyro/Desktop/aww.mp4", "wb");
+	file = fopen(" YOUR DESTINATION FILE PATH ", "wb");
 
 	//START RECIEVING FILE
 
