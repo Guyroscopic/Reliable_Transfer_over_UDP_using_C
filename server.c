@@ -118,7 +118,7 @@ int main(int argc, char *argv[]){
 	}	
 	else{
 		printf("Client Asked for the file\n\n");
-		const char *fileName = "/home/guyro/Desktop/CNtestvideo.mp4";
+		const char *fileName = //YOUR SOURCE FILE PATH
 		file = fopen(fileName, "rb");			//Opening File to Read		
 		//if invalid file
 		if(file == NULL){
